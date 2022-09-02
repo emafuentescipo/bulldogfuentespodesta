@@ -1,6 +1,11 @@
 import logo from './logo.svg';
+import logoNL from './imagenes/descarga.jpeg'
 import './App.css';
-import NavBar from './components/NavBar';
+import NavBar from './components/NavBar'
+
+import ItemListContainer from './components/ItemListContainer'
+
+import CardWidget from './components/CartWidget'
 
 function App() {
   return (
@@ -8,8 +13,8 @@ function App() {
       <NavBar />
       <header className="App-header">
          
-          <img src={logo} className="App-logo" alt="logo" />
-          <ItemLisContainer greeting= 'Hola'></ItemLisContainer>
+          <CardWidget icono={logoNL} />
+          <ItemListContainer greeting='Nombre asdasdasd' />
        
       </header>
     </div>

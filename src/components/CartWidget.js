@@ -1,4 +1,4 @@
 const Icono = ( { icono }) => {
-    return <img srcr .....
+    return <img src={icono} />
 };
 export default Icono;
