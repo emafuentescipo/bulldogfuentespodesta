@@ -2,8 +2,10 @@ import logo from './logo.svg';
 import logoNL from './imagenes/descarga.jpeg'
 import './App.css';
 import NavBar from './components/NavBar'
+import ClassComponent from './components/ClassComponent/ClassComponent'; 
 
 import ItemListContainer from './components/ItemListContainer'
+
 
 import CardWidget from './components/CartWidget'
 
