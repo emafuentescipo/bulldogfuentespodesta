@@ -17,7 +17,8 @@ function App() {
          
           <CardWidget icono={logoNL} />
           <ItemListContainer greeting='Nombre asdasdasd' />
-       
+          <ClassComponent />
+      
       </header>
     </div>
   );
